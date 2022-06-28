@@ -343,50 +343,51 @@
       <section class="clients">
         <div class="container">
           <h2 class="clients__title">Наши партнеры</h2>
-          <ul class="clients__list">
-            <li>
-              <a href="">
-                <svg class="icon-clients" width="106" height="60">
+
+          <ul class="clients__list list">
+            <li class="clients__item">
+              <a class="clients__link" href="">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./image/icons.svg#icon-client-1"></use>
                 </svg>
               </a>
             </li>
 
-            <li>
-              <a href="">
-                <svg class="icon-clients" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href="">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./image/icons.svg#icon-client-2"></use>
                 </svg>
               </a>
             </li>
 
-            <li>
-              <a href="">
-                <svg class="icon-clients" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href="">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./image/icons.svg#icon-client-3"></use>
                 </svg>
               </a>
             </li>
 
-            <li>
-              <a href="">
-                <svg class="icon-clients" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href="">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./image/icons.svg#icon-client-4"></use>
                 </svg>
               </a>
             </li>
 
-            <li>
-              <a href="">
-                <svg class="icon-clients" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href="">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./image/icons.svg#icon-client-5"></use>
                 </svg>
               </a>
             </li>
 
-            <li>
-              <a href="">
-                <svg class="icon-clients" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href="">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./image/icons.svg#icon-client-6"></use>
                 </svg>
               </a>
@@ -399,43 +400,46 @@
     <footer>
       <div class="container footer">
         <div class="footer-address">
-          <a class="logo-footer" href=""> <span class="logo-blu">Photo</span>Studio</a>
+          <a class="logo footer__logo" href=""> <span class="logo__acсent">Photo</span>Studio</a>
+
           <address class="location">
             г.Днепр1, ул.Шевченко,155
-            <a class="contacts" href="mailto:manki@mail.com">manki@mail.com</a>
-            <a class="contacts" href="tel:+3802223344">+3802223344</a>
+            <a class="location__link" href="mailto:manki@mail.com">manki@mail.com</a>
+            <a class="location__link" href="tel:+3802223344">+3802223344</a>
           </address>
         </div>
-        <div class="footer-links">
-          <h2 class="footer-links-title">Присоединяйтесь</h2>
-          <ul class="footer-links-list">
-            <li>
-              <a href="">
-                <svg class="icon-footer" width="20" height="20">
+
+        <div class="join">
+          <h2 class="join__title">Присоединяйтесь</h2>
+
+          <ul class="join__list list">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon" width="20" height="20">
                   <use href="./image/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
 
-            <li>
-              <a href="">
-                <svg class="icon-footer" width="20" height="20">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon" width="20" height="20">
                   <use href="./image/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
 
-            <li>
-              <a href="">
-                <svg class="icon-footer" width="20" height="20">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon" width="20" height="20">
                   <use href="./image/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
 
-            <li>
-              <a href="">
-                <svg class="icon-footer" width="20" height="20">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon" width="20" height="20">
                   <use href="./image/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -443,22 +447,22 @@
           </ul>
         </div>
 
-        <div class="footer-field-form">
-          <form>
-            <b class="footer-form">Подпишитесь на рассылку</b>
+        <div class="form-container">
+          <form class="form">
+            <b class="form__title">Подпишитесь на рассылку</b>
 
-            <label class="label-footer-form" for="user_email"></label>
+            <label class="form__label" for="user_email"></label>
             <input
-              class="input-footer-form"
+              class="form__input"
               type="email"
               name="email"
               id="user_email"
               placeholder="E-mail"
             />
-            <button class="button-footer-form" type="submit">
+            <button class="form__button" type="submit">
               Подписаться
 
-              <svg class="button-icon-footer" width="24" height="24">
+              <svg class="form__icon" width="24" height="24">
                 <use href="./image/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
