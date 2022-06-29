@@ -1,0 +1,14 @@
+body {
+  color: var(--primary-text-color);
+  background-color: var(--complementary-color);
+  font-family: "Roboto", "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}

@@ -13,29 +13,35 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
     <header class="page-header">
       <div class="container head-container">
-        <a class="logo" href=""> <span class="logo__acсent">Photo</span>Studio</a>
+        <a class="logo" href="">
+          <span class="logo__acсent">Photo</span>Studio</a
+        >
         <nav class="site-nav">
           <ul class="site-nav__list list">
             <li class="site-nav__item">
-              <a class="site-nav__link active" href="./index.html">О нас</a>
+              <a class="site-nav__link" href="./index.html">О нас</a>
             </li>
             <li class="site-nav__item">
-              <a class="site-nav__link" href="./portfolio.html">Портфолио</a>
+              <a class="site-nav__link active" href="./portfolio.html"
+                >Портфолио</a
+              >
             </li>
-            <li class="site-nav__item"><a class="site-nav__link" href="">Контакты</a></li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="">Контакты</a>
+            </li>
           </ul>
         </nav>
 
         <ul class="contacts list">
           <li class="contacts__item">
             <a class="contacts__link" href="mailto:manki@mail.com">
-              <svg class="contacts__icon-mail" width="16" height="12">
+              <svg class="contacts__icon" width="16" height="12">
                 <use href="./image/icons.svg#icon-envelope"></use>
               </svg>
               manki@mail.com
@@ -43,7 +49,7 @@
           </li>
           <li class="contacts__item">
             <a class="contacts__link" href="tel:+3802223344">
-              <svg class="contacts__icon-tel" width="10" height="16">
+              <svg class="contacts__icon" width="10" height="16">
                 <use href="./image/icons.svg#icon-smartphone"></use>
               </svg>
               +3802223344
@@ -59,23 +65,39 @@
         <!-- <h1>Портфолио</h1> -->
         <div class="container">
           <ul class="list-button">
-            <li class="item"><button class="radio-buttons" type="button">Все</button></li>
-            <li class="item"><button class="radio-buttons" type="button">Романтика</button></li>
-            <li class="item"><button class="radio-buttons" type="button">Праздник</button></li>
-            <li class="item"><button class="radio-buttons" type="button">Работа</button></li>
-            <li class="item"><button class="radio-buttons" type="button">Семья</button></li>
+            <li class="item">
+              <button class="radio-buttons" type="button">Все</button>
+            </li>
+            <li class="item">
+              <button class="radio-buttons" type="button">Романтика</button>
+            </li>
+            <li class="item">
+              <button class="radio-buttons" type="button">Праздник</button>
+            </li>
+            <li class="item">
+              <button class="radio-buttons" type="button">Работа</button>
+            </li>
+            <li class="item">
+              <button class="radio-buttons" type="button">Семья</button>
+            </li>
           </ul>
 
           <ul class="list-portfolio">
             <li class="item action">
               <div class="thumb">
-                <img class="item-img" src="./image/Романтика.jpg" alt="Влюбленные" width="370" />
+                <img
+                  class="item-img"
+                  src="./image/Романтика.jpg"
+                  alt="Влюбленные"
+                  width="370"
+                />
 
                 <div class="portfolio-card">
                   <p>
-                    Love Story — это красивая и романтическая история любви, рассказанная в ярких
-                    фотографиях. В качестве сюжета для съемок вы можете выбрать какое-то важное
-                    событие, совместные увлечения или один день из вашей жизни.
+                    Love Story — это красивая и романтическая история любви,
+                    рассказанная в ярких фотографиях. В качестве сюжета для
+                    съемок вы можете выбрать какое-то важное событие, совместные
+                    увлечения или один день из вашей жизни.
                   </p>
                 </div>
               </div>
@@ -96,9 +118,10 @@
                 />
                 <div class="portfolio-card">
                   <p>
-                    Love Story — это красивая и романтическая история любви, рассказанная в ярких
-                    фотографиях. В качестве сюжета для съемок вы можете выбрать какое-то важное
-                    событие, совместные увлечения или один день из вашей жизни.
+                    Love Story — это красивая и романтическая история любви,
+                    рассказанная в ярких фотографиях. В качестве сюжета для
+                    съемок вы можете выбрать какое-то важное событие, совместные
+                    увлечения или один день из вашей жизни.
                   </p>
                 </div>
               </div>
@@ -119,9 +142,10 @@
                 />
                 <div class="portfolio-card">
                   <p>
-                    Love Story — это красивая и романтическая история любви, рассказанная в ярких
-                    фотографиях. В качестве сюжета для съемок вы можете выбрать какое-то важное
-                    событие, совместные увлечения или один день из вашей жизни.
+                    Love Story — это красивая и романтическая история любви,
+                    рассказанная в ярких фотографиях. В качестве сюжета для
+                    съемок вы можете выбрать какое-то важное событие, совместные
+                    увлечения или один день из вашей жизни.
                   </p>
                 </div>
               </div>
@@ -133,12 +157,18 @@
 
             <li class="item action">
               <div class="thumb">
-                <img class="item-img" src="./image/Свадьба.jpg" alt="жених и невеста" width="370" />
+                <img
+                  class="item-img"
+                  src="./image/Свадьба.jpg"
+                  alt="жених и невеста"
+                  width="370"
+                />
                 <div class="portfolio-card">
                   <p>
-                    Love Story — это красивая и романтическая история любви, рассказанная в ярких
-                    фотографиях. В качестве сюжета для съемок вы можете выбрать какое-то важное
-                    событие, совместные увлечения или один день из вашей жизни.
+                    Love Story — это красивая и романтическая история любви,
+                    рассказанная в ярких фотографиях. В качестве сюжета для
+                    съемок вы можете выбрать какое-то важное событие, совместные
+                    увлечения или один день из вашей жизни.
                   </p>
                 </div>
               </div>
@@ -151,12 +181,18 @@
 
             <li class="item action">
               <div class="thumb">
-                <img class="item-img" src="./image/2.jpg" alt="семья у елки" width="370" />
+                <img
+                  class="item-img"
+                  src="./image/2.jpg"
+                  alt="семья у елки"
+                  width="370"
+                />
                 <div class="portfolio-card">
                   <p>
-                    Love Story — это красивая и романтическая история любви, рассказанная в ярких
-                    фотографиях. В качестве сюжета для съемок вы можете выбрать какое-то важное
-                    событие, совместные увлечения или один день из вашей жизни.
+                    Love Story — это красивая и романтическая история любви,
+                    рассказанная в ярких фотографиях. В качестве сюжета для
+                    съемок вы можете выбрать какое-то важное событие, совместные
+                    увлечения или один день из вашей жизни.
                   </p>
                 </div>
               </div>
@@ -168,12 +204,18 @@
 
             <li class="item action">
               <div class="thumb">
-                <img class="item-img" src="./image/фуд фото2.jpg" alt="пирог" width="370" />
+                <img
+                  class="item-img"
+                  src="./image/фуд фото2.jpg"
+                  alt="пирог"
+                  width="370"
+                />
                 <div class="portfolio-card">
                   <p>
-                    Love Story — это красивая и романтическая история любви, рассказанная в ярких
-                    фотографиях. В качестве сюжета для съемок вы можете выбрать какое-то важное
-                    событие, совместные увлечения или один день из вашей жизни.
+                    Love Story — это красивая и романтическая история любви,
+                    рассказанная в ярких фотографиях. В качестве сюжета для
+                    съемок вы можете выбрать какое-то важное событие, совместные
+                    увлечения или один день из вашей жизни.
                   </p>
                 </div>
               </div>
@@ -186,12 +228,18 @@
 
             <li class="item action">
               <div class="thumb">
-                <img class="item-img" src="./image/семья ребенок.jpg" alt="малыш" width="370" />
+                <img
+                  class="item-img"
+                  src="./image/семья ребенок.jpg"
+                  alt="малыш"
+                  width="370"
+                />
                 <div class="portfolio-card">
                   <p>
-                    Love Story — это красивая и романтическая история любви, рассказанная в ярких
-                    фотографиях. В качестве сюжета для съемок вы можете выбрать какое-то важное
-                    событие, совместные увлечения или один день из вашей жизни.
+                    Love Story — это красивая и романтическая история любви,
+                    рассказанная в ярких фотографиях. В качестве сюжета для
+                    съемок вы можете выбрать какое-то важное событие, совместные
+                    увлечения или один день из вашей жизни.
                   </p>
                 </div>
               </div>
@@ -211,9 +259,10 @@
                 />
                 <div class="portfolio-card">
                   <p>
-                    Love Story — это красивая и романтическая история любви, рассказанная в ярких
-                    фотографиях. В качестве сюжета для съемок вы можете выбрать какое-то важное
-                    событие, совместные увлечения или один день из вашей жизни.
+                    Love Story — это красивая и романтическая история любви,
+                    рассказанная в ярких фотографиях. В качестве сюжета для
+                    съемок вы можете выбрать какое-то важное событие, совместные
+                    увлечения или один день из вашей жизни.
                   </p>
                 </div>
               </div>
@@ -234,9 +283,10 @@
                 />
                 <div class="portfolio-card">
                   <p>
-                    Love Story — это красивая и романтическая история любви, рассказанная в ярких
-                    фотографиях. В качестве сюжета для съемок вы можете выбрать какое-то важное
-                    событие, совместные увлечения или один день из вашей жизни.
+                    Love Story — это красивая и романтическая история любви,
+                    рассказанная в ярких фотографиях. В качестве сюжета для
+                    съемок вы можете выбрать какое-то важное событие, совместные
+                    увлечения или один день из вашей жизни.
                   </p>
                 </div>
               </div>
@@ -253,11 +303,15 @@
     <footer>
       <div class="container footer">
         <div class="footer-address">
-          <a class="logo footer__logo" href=""> <span class="logo__acсent">Photo</span>Studio</a>
+          <a class="logo footer__logo" href="">
+            <span class="logo__acсent">Photo</span>Studio</a
+          >
 
           <address class="location">
             г.Днепр1, ул.Шевченко,155
-            <a class="location__link" href="mailto:manki@mail.com">manki@mail.com</a>
+            <a class="location__link" href="mailto:manki@mail.com"
+              >manki@mail.com</a
+            >
             <a class="location__link" href="tel:+3802223344">+3802223344</a>
           </address>
         </div>

@@ -1,0 +1,42 @@
+/* преимущество  заголовок*/
+.benefits {
+  padding-top: 94px;
+}
+
+.benefits__list {
+  display: flex;
+  justify-content: center;
+}
+
+.benefits__item {
+  max-width: 235px;
+  & + .benefits__item {
+    margin-left: 30px;
+  }
+}
+
+.benefits__title {
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+/* текст ниже заголовка */
+
+.benefits__text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* див иконок наши преимущества */
+.benefits__box {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
